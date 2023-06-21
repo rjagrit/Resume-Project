@@ -83,6 +83,21 @@ nav .icon
     display: none;
 }
 
+footer
+{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    bottom: 0;
+    color: white;
+}
+footer h2
+{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+}
 @media (max-width:1024px)
 {
     label.logo
