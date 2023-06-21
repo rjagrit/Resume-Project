@@ -1,0 +1,215 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body
+{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+            'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav
+{
+    height: 100px;
+    width: 100%;
+    background:black;
+}
+
+label.logo
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-left: 40px;
+    line-height: 80px;
+}
+
+nav ul
+{
+    float: right;
+    margin-right: 10px;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    line-height: 50px;
+}
+
+nav a
+{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btn
+{
+    float: right;
+    margin-top: 23px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    width:120px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background: white;
+    color: red;
+    border:2px solid red;
+}
+nav .icon
+{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:1024px)
+{
+    label.logo
+    {
+        font-size: 25px;
+        padding-left: 40px;
+        line-height: 90px; 
+    }  
+
+    nav li
+    {
+        margin-top: 25px;
+    }
+
+    nav a
+    {
+    color: white;
+    font-size: 15px;
+   }
+
+    .btn
+    {
+    margin-top:32px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    }
+}
+
+@media (max-width:768px)
+{
+    nav .icon
+    {
+        display: block;
+        margin-top: 10px;
+        margin-right: 3px;
+       color: white;
+        font-size: 25px;
+        float: right;
+        cursor: pointer;
+    }
+    label.logo
+    {
+        font-size: 25px;
+        padding-left: 40px;
+        line-height: 90px; 
+    }  
+
+    nav a
+    {
+    color: white;
+    font-size: 25px;
+    }
+   nav ul
+   {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: brown;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+   }
+   .btn
+   {   
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    max-width: fit-content;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: none;
+
+    }
+    .btn:hover
+    {
+    background:transparent;
+    }
+    nav li
+    {
+        display: block;
+    }
+
+    nav
+{
+    height: 80px;
+    width: 100%;
+    background:black;
+}
+
+    nav ul.show
+    {
+        left: 0;
+    }
+}
+
+    @media (max-width:425px)
+    {
+        nav a
+        {
+        color: white;
+        font-size: 20px;
+        } 
+        nav .icon
+        {
+            margin-top: 8px;
+            font-size: 20px;
+        }
+
+        label.logo
+        {
+            font-size: 20px;
+        }
+        .btn
+        {   
+            font-size: 15px;
+        }
+        nav ul
+        {
+            background: brown;
+        }
+
+    }
+    
+
+
