@@ -281,6 +281,31 @@ padding-right: 40px;
             background: brown;
         }
 
+        /* footer
+        {
+            bottom: 0;
+            height: 40vh;
+            width: 100%;
+        }
+        footer h2
+        {
+            display: none;
+        }
+        .main2 a
+        {
+            position: absolute;
+            bottom: 0;
+        }
+        .main
+        {
+            position: absolute;
+            top: 10%;
+            left: 44%;
+        }
+        .main li  
+        {
+            padding-top: 5px;
+        } */
     }
     
 
