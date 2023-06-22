@@ -88,7 +88,7 @@ footer
     position: absolute;
     background-color: black;
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     bottom: 0;
     color: white;
 }
@@ -98,6 +98,19 @@ footer h2
     left: 40%;
     top: 35%;
 }
+.main
+{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: fit-content;
+    font-size: 15px;
+}
+.main a
+{
+ color: white;
+}
+
 @media (max-width:1024px)
 {
     label.logo
