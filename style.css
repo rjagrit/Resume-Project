@@ -100,12 +100,12 @@ footer
     color: white;
     margin-top: auto;
 }
-footer h2
+.h
 {
-    position: absolute;
-    left: 40%;
-    bottom: 6%;
-
+    position:relative;
+    bottom: 24%;   
+    width: fit-content;
+    margin-left: 40%;
 }
 .main
 {
@@ -121,9 +121,10 @@ footer h2
 }
 .main1
 {
-    position: absolute;
+    position: relative;
     right: 0;
-    bottom: 5%;
+    bottom: 38%;
+    margin-left: 80%;
 }
 .main1 i
 {
@@ -140,20 +141,19 @@ padding-right: 40px;
 
 .line1
 {
-    margin-top: 10px;
-}
-.line2
-{
-    margin-top: 10px;
+    /* margin-top: 10px;
+    margin-left: 30px; */
+    display: flex;
+    justify-content: space-around;
+    
 }
 .j1
 {
-    background-color: blue;
-    width: 200px;
-    height: 250px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+
 }
 @media (max-width:1024px)
 {
