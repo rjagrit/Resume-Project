@@ -4,11 +4,20 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
+}
+html
+{
+    height: 100%;
 }
 body
 {
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
             'Open Sans', 'Helvetica Neue', sans-serif;
+            min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 nav
@@ -84,22 +93,23 @@ nav .icon
 
 footer
 {
-    position: absolute;
     background-color: black;
     width: 100%;
     height: 20vh;
     bottom: 0;
     color: white;
+    margin-top: auto;
 }
 footer h2
 {
     position: absolute;
     left: 40%;
-    top: 35%;
+    bottom: 6%;
+
 }
 .main
 {
-    position: absolute;
+    position: relative;
     top: 10%;
     left: 3%;
     width: fit-content;
@@ -113,7 +123,7 @@ footer h2
 {
     position: absolute;
     right: 0;
-    top: 40%;
+    bottom: 5%;
 }
 .main1 i
 {
@@ -128,7 +138,23 @@ padding-right: 40px;
     display: none;  
 }
 
-
+.line1
+{
+    margin-top: 10px;
+}
+.line2
+{
+    margin-top: 10px;
+}
+.j1
+{
+    background-color: blue;
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
 @media (max-width:1024px)
 {
     label.logo
